@@ -1,0 +1,95 @@
+.vvv{
+margin:4% 13% 0% ;
+  
+width: 75%;
+  background-color: rgba(236, 239, 241, 1);
+  border-radius: 6px;
+  border-color:blue;
+  padding: 15px 25px 25px 15px;
+  box-shadow: 0 10px 20px 20px rgb(121, 134, 203);
+}
+
+.d1{
+flex-basis:30%;
+
+}
+
+
+.d2 img{
+float:left;
+width:185px;
+margin-left:20px;
+margin-bottom:20px;
+margin-top:0px; 
+display: flex;
+}
+.navbar {
+margin-top:10px;
+margin-left:40px;
+  overflow: hidden;
+  background-color: blue;
+    color: white;
+ 
+}
+
+
+.navbar a {
+margin-top:10px;
+margin-bottom:10px;
+margin-left:55px;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+ a.active {
+  
+  background: rgb(243, 229, 245);
+  color: black;
+}
+
+#customers {
+font-family:  cursive;
+   font-size: 30px;
+  border-collapse: collapse;
+  width: 80%;
+margin-top: 15px;
+  margin-bottom: 150px;
+  margin-right: 100px;
+  margin-left: 150px;
+
+}
+
+#customers td, #customers th {
+  border: 5px solid blue;
+  
+
+}
+
+
+
+td img{width:25%;
+vertical-align: middle;
+
+
+}
+
+
+
+#customers tr:hover {background-color: rgba(236, 239, 241, 1);
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+ 
+  background-color:white;
+  color: black;
+text-align: center;
+}
+

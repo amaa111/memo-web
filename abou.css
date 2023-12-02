@@ -1,0 +1,157 @@
+.vvv{
+margin:4% 13% 0% ;
+  
+width: 75%;
+  
+  background-color: rgba(236, 239, 241, 1);
+  border-radius: 6px;
+  border-color:blue;
+  padding: 15px 25px 25px 15px;
+  box-shadow: 0 10px 20px 20px #153E7E;
+}
+
+.d1{
+flex-basis:30%;
+
+}
+
+
+.d2 img{
+float:left;
+width:185px;
+margin-left:20px;
+margin-bottom:20px;
+margin-top:0px; 
+display: flex;
+}
+.navbar {
+margin-top:10px;
+margin-left:40px;
+  overflow: hidden;
+  background-color: blue;
+   color: white;
+ 
+}
+
+.navbar a {
+margin-top:10px;
+margin-bottom:10px;
+margin-left:55px;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black ;
+}
+
+ a.active {
+  
+  background: rgb(243, 229, 245);
+  color: black;
+}
+.cc{margin:4% 13% 0% ;
+  
+width: 75%;
+  background:rgba(236, 239, 241, 1);
+  border-radius: 6px;
+  border-color:deepskyblue ;
+  padding: 15px 25px 25px 15px;
+  box-shadow: 0 10px 20px 20px rgb(121, 134, 203);
+}
+.cc h1{
+text-align:center;
+color:rgb(74, 20, 140);}
+.cc p{
+text-align:center;
+font-size:23px;}
+
+
+.container{
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    text-align: center;
+	
+}
+.section-title h1{
+    display: inline-block;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    margin: 0 0 5px;
+    position: relative;
+}
+.section-title h1::before{
+    content: '';
+    left: 0;
+    position: absolute;
+    height: 3px;
+    right: 32%;
+    background-color: white ;
+    bottom: -5px;
+
+}
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    padding-left: 5px;
+margin-left:20%;
+}
+.column{
+    position: relative;
+    width: 20%;
+    padding-left: 0px;
+    flex: 0 10 100%;
+    max-width: 40%;
+background:deepskyblue ;
+margin-top:2%;
+margin-left:1%;
+}
+
+.team{
+    margin-bottom:20px ;
+ padding-left: 2px;
+  align-items: center;
+
+}
+.team .team-img{
+    position: relative;
+    font-size: 0;
+    text-align: center;
+ margin-left: 5px;
+}
+
+}
+
+.team .team-content{
+    padding: 80px 1px 20px 20px;
+    margin-top: -80px;
+    text-align: center;
+    background:white;
+    border-radius: 10px;
+}
+.team .team-content h2{
+font-size: 25px;
+font-weight: 400;
+letter-spacing: 2px;
+
+}

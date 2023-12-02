@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="abou.css">
+<style>
+    div.nemo{
+        font-size: 30px;
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
+        background-color: blue;
+        margin: auto;
+        margin-top: 40px;
+        color: aquamarine;
+
+    }
+#nameList{
+    margin: 50px;
+
+}
+
+</style>
+</head>
+<body>
+<div class="d1">
+<div class="d2">
+<img  src="https://yourimageshare.com/ib/4rrHHvHbGC.jpeg" >
+</div>
+</div>
+<div class="navbar">
+  <a href="welcome.html" >Home</a>
+  <a href="Eyeglasses.html" >Eyeglasses</a>
+  <a href="Sun.html" >Sunglasses</a>  
+  <a href="Lenses.html">Lenses and accessories</a>
+  <a href="main.html">Maintenance</a>
+  <a class="active" href="team.html" >About US</a>
+  </div>
+<div class="cx">
+<div class="cc">
+<div class="a">
+
+</div>
+<div class="a">
+<h1>About US</h1>
+<br>
+
+<p>Eyeglasses are a necessary product that people cannot give up,
+ and that is why our store wanted to provide all kinds of glasses,
+ features, features and maintenance to serve you and to provide everything that suits our valued customers. 
+ We have put discounts and symbolic prices to be the first destination for you in the world of optics and contact lenses..</p>
+ 
+ </div>
+</div>
+<div class="xd">
+
+    <div class="nemo">
+        <h1 style="text-align: center;">NAME</h1>
+         <ul id="nameList" >
+             <li>amaal fares alruwili</li>
+             <li>431003236  </li>
+           
+         </ul>
+      </div>
+     
+         <script>
+             window.onload = function() {
+                 shuffleList();
+             };
+             
+             function shuffleList() {
+                 var ul = document.getElementById('nameList');
+                 for (var i = ul.children.length; i >= 0; i--) {
+                     ul.appendChild(ul.children[Math.random() * i | 0]);
+                 }
+             }
+             </script>
+</div>
+</body>
+</html>
